@@ -1,0 +1,44 @@
+[2026-11-19 19:22:13] [INFO] Sistema Software FJ inicializado correctamente en memoria.
+[2026-11-19 19:22:13] [INFO] Cliente registrado exitosamente: Cliente [C-01]: Laura Gómez | Email: laura.gomez@correo.com | Tel: 3104567890
+[2026-11-19 19:22:13] [TRACE] Intento de registro de cliente 'C-01' finalizado.
+[2026-11-19 19:22:13] [INFO] Cliente registrado exitosamente: Cliente [C-02]: Carlos Méndez | Email: cmendez@empresa.co | Tel: 3209876543
+[2026-11-19 19:22:13] [TRACE] Intento de registro de cliente 'C-02' finalizado.
+[2026-11-19 19:22:13] [ERROR] [ERR-DATO] Fallo al registrar cliente: Formato de correo inválido: 'correo_sin_arroba'.
+[2026-11-19 19:22:13] [TRACE] Intento de registro de cliente 'C-03' finalizado.
+[2026-11-19 19:22:13] [ERROR] [ERR-DATO] Fallo al registrar cliente: Ya existe un cliente registrado con el ID 'C-01'.
+[2026-11-19 19:22:13] [TRACE] Intento de registro de cliente 'C-01' finalizado.
+[2026-11-19 19:22:13] [INFO] Servicio agregado: Sala [S-01]: Sala Innovación A (Cap: 25 pers.) - $80000.0/h [Disponible]
+[2026-11-19 19:22:13] [INFO] Servicio agregado: Equipo [S-02]: Estación Workstation Dell (Con seguro) - $120000.0/día [Disponible]
+[2026-11-19 19:22:13] [INFO] Servicio agregado: Asesoría [S-03]: Auditoría Ciberseguridad (Seguridad Informática) - $150000.0/h [Disponible]
+[2026-11-19 19:22:13] [ERROR] [ERR-CALC] Error al instanciar servicio: La tarifa base (-50000) debe ser mayor a cero.
+[2026-11-19 19:22:13] [INFO] Reserva creada: Reserva [R-101] | Estado: PENDIENTE | Cliente: Laura Gómez | Servicio: Sala Innovación A | Duración: 3 | Total: $314,160.00
+[2026-11-19 19:22:13] [INFO] Reserva creada: Reserva [R-102] | Estado: PENDIENTE | Cliente: Carlos Méndez | Servicio: Estación Workstation Dell | Duración: 4 | Total: $578,340.00
+[2026-11-19 19:22:13] [ERROR] [ERR-DATO] Error en reserva 'R-103': No se encontró el cliente con ID 'C-99'. | Causa original: StopIteration
+[2026-11-19 19:22:13] [ERROR] [ERR-DATO] Error en reserva 'R-104': Duración inválida para sala (20h). Debe ser entre 1 y 12 horas enteras.
+[2026-11-19 19:22:13] [INFO] Reserva 'R-101' actualizada a estado CONFIRMADA.
+[2026-11-19 19:22:13] [ERROR] [ERR-DISP] Error en reserva 'R-105': El servicio 'Sala Innovación A' no está disponible actualmente.
+[2026-11-19 19:22:13] [INFO] Reserva 'R-101' actualizada a estado PROCESADA.
+[2026-11-19 19:22:13] [ERROR] [ERR-OPER] Fallo al cancelar reserva 'R-101': No es posible cancelar una reserva que ya fue procesada y facturada.
+[2026-11-19 19:22:13] [INFO] Reserva creada: Reserva [R-106] | Estado: PENDIENTE | Cliente: Carlos Méndez | Servicio: Sala Innovación A | Duración: 2 | Total: $167,200.00
+[2026-11-19 19:27:17] [INFO] Sistema Software FJ inicializado correctamente en memoria.
+[2026-11-19 19:27:17] [INFO] Cliente registrado exitosamente: Cliente [C-01]: Laura Gómez | Email: laura.gomez@correo.com | Tel: 3104567890
+[2026-11-19 19:27:17] [TRACE] Intento de registro de cliente 'C-01' finalizado.
+[2026-11-19 19:27:17] [INFO] Cliente registrado exitosamente: Cliente [C-02]: Carlos Méndez | Email: cmendez@empresa.co | Tel: 3209876543
+[2026-11-19 19:27:17] [TRACE] Intento de registro de cliente 'C-02' finalizado.
+[2026-11-19 19:27:17] [ERROR] [ERR-DATO] Fallo al registrar cliente: Formato de correo inválido: 'correo_sin_arroba'.
+[2026-11-19 19:27:17] [TRACE] Intento de registro de cliente 'C-03' finalizado.
+[2026-11-19 19:27:17] [ERROR] [ERR-DATO] Fallo al registrar cliente: Ya existe un cliente registrado con el ID 'C-01'.
+[2026-11-19 19:27:17] [TRACE] Intento de registro de cliente 'C-01' finalizado.
+[2026-11-19 19:27:17] [INFO] Servicio agregado: Sala [S-01]: Sala Innovación A (Cap: 25 pers.) - $80000.0/h [Disponible]
+[2026-11-19 19:27:17] [INFO] Servicio agregado: Equipo [S-02]: Estación Workstation Dell (Con seguro) - $120000.0/día [Disponible]
+[2026-11-19 19:27:17] [INFO] Servicio agregado: Asesoría [S-03]: Auditoría Ciberseguridad (Seguridad Informática) - $150000.0/h [Disponible]
+[2026-11-19 19:27:17] [ERROR] [ERR-CALC] Error al instanciar servicio: La tarifa base (-50000) debe ser mayor a cero.
+[2026-11-19 19:27:17] [INFO] Reserva creada: Reserva [R-101] | Estado: PENDIENTE | Cliente: Laura Gómez | Servicio: Sala Innovación A | Duración: 3 | Total: $314,160.00
+[2026-11-19 19:27:17] [INFO] Reserva creada: Reserva [R-102] | Estado: PENDIENTE | Cliente: Carlos Méndez | Servicio: Estación Workstation Dell | Duración: 4 | Total: $578,340.00
+[2026-11-19 19:27:17] [ERROR] [ERR-DATO] Error en reserva 'R-103': No se encontró el cliente con ID 'C-99'. | Causa original: StopIteration
+[2026-11-19 19:27:17] [ERROR] [ERR-DATO] Error en reserva 'R-104': Duración inválida para sala (20h). Debe ser entre 1 y 12 horas enteras.
+[2026-11-19 19:27:18] [INFO] Reserva 'R-101' actualizada a estado CONFIRMADA.
+[2026-11-19 19:27:18] [ERROR] [ERR-DISP] Error en reserva 'R-105': El servicio 'Sala Innovación A' no está disponible actualmente.
+[2026-11-19 19:27:18] [INFO] Reserva 'R-101' actualizada a estado PROCESADA.
+[2026-11-19 19:27:18] [ERROR] [ERR-OPER] Fallo al cancelar reserva 'R-101': No es posible cancelar una reserva que ya fue procesada y facturada.
+[2026-11-19 19:27:18] [INFO] Reserva creada: Reserva [R-106] | Estado: PENDIENTE | Cliente: Carlos Méndez | Servicio: Sala Innovación A | Duración: 2 | Total: $167,200.00
